@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Article preview component" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Frontend Mentor | Article preview component</title>
+</head>
+
+<body style="overflow-y: auto;" tabindex="0">
+  <main class="container">
+    <div class="article_preview_card">
+      <img src="./images/drawers.jpg" alt="drawers image" class="drawers_img" />
+
+      <div class="article_text">
+        <h1>
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </h1>
+
+        <p class="text">
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I’ve got some simple tips to help
+          you make any room feel complete.
+        </p>
+
+        <div class="user_info_bar">
+          <div class="user_details">
+            <div class="user_img">
+              <img src="./images/avatar-michelle.jpg" alt="michelle avatar" />
+            </div>
+
+            <div class="user_info">
+              <h2>Michelle Appleton</h2>
+              <p class="date">28 Jun 2020</p>
+            </div>
+          </div>
+
+          <div class="share_icon">
+            <!-- share_icon -->
+            <button aria-label="share article" type="button">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13">
+                <path fill="#6E8098"
+                  d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="share_container_mobile">
+          <!-- share options mobile -->
+          <div class="share-options-mobile">
+            <span>SHARE</span>
+            <a href="https://bit.ly/3FkwcHV"><img src="./images/icon-facebook.svg" alt="share to facebook" /></a>
+            <a href="https://bit.ly/3VTnIPd"><img src="./images/icon-twitter.svg" alt="share to twitter" /></a>
+            <a href="https://bit.ly/3VTnIPd"><img src="./images/icon-pinterest.svg" alt="share to pinterest" /></a>
+          </div>
+
+          <div class="share_icon_mobile">
+            <!-- share_icon mobile -->
+            <button aria-label="share" type="button">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13">
+                <path fill="#6E8098"
+                  d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        
+      <div class="share_container hide_share_container">
+        <div class="share_options">
+          <span>SHARE</span>
+          <a href="https://bit.ly/3FkwcHV"><img src="./images/icon-facebook.svg" alt="share to facebook" /></a>
+          <a href="https://bit.ly/3VTnIPd"><img src="./images/icon-twitter.svg" alt="share to twitter" /></a>
+          <a href="https://bit.ly/3VTnIPd"><img src="./images/icon-pinterest.svg" alt="share to pinterest" /></a>
+        </div>
+
+        <!-- triangle -->
+        <div class="triangle"></div>
+      </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
